@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./resources/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+
+
+    <title> Rock Paper Scissors </title>
+</head>
+
+<body>
+    <h1 id="main-header"> Rock Paper Scissors</h1>
+
+    <div id="name-input">
+    <input id="input" placeholder="enter your name"></input>
+    <button id="addPlayer">add</button>
+
+    </div>
+
+    <div id="game-display-all">
+        <div class="container-box" id="player1">
+            <h4 class="" id="player1-name"> </h4>
+
+
+            <button id="rock-btn-1" class="choice-btn rock-btn">rock </button>
+            <button id="paper-btn-1" class="choice-btn paper-btn"> paper </button>
+            <button id="scissors-btn-1" class="choice-btn scissors-btn">scissors </button>
+
+        </div>
+
+        <div class="container-box" id="result">
+
+        </div>
+
+        <div class="container-box" id="player2">
+            <h4 id="player2-name">  </h4>
+            <button id="rock-btn-2" class="choice-btn rock-btn">rock </button>
+            <button id="paper-btn-2" class="choice-btn paper-btn"> paper </button>
+            <button id="scissors-btn-2" class="choice-btn scissors-btn">scissors </button>
+
+        </div>
+    </div>
+
+
+
+
+    <div id="chat-all">
+        <div id="chat-display">
+
+        </div>
+        <button id="send-btn"> send </button>
+    </div>
+    <script src="./resources/js/index.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+
+</body>
+
+</html>
